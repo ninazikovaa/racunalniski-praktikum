@@ -12,6 +12,20 @@ body {
         padding: 2em;
         background-color: rgba(51, 0, 102, 0.1);
     }
+    a { 
+        text-decoration: none; 
+        outline:none; 
+    }
+
+    a:link { color:#cc0000; }
+    a:visited { color:#660066; }
+    a:hover { color:#660066; }
+    a:active { color:#990000; outline:none; }
+
+    a::before {
+        content: "→ ";
+    }
+
 
     color: #333333; 
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
@@ -57,4 +71,11 @@ div {
 .slika img {
   width: 100%;
   height: auto;
+  border-radius: 50%;
 }
+.slika p:last-child {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+
