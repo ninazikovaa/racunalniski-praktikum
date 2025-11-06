@@ -1,5 +1,18 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
+    h1 {
+        color: #110765;
+    }
+    h2 {
+        margin-top: 2em;
+        border-top: 1px solid #AAAAAA;
+        padding-top: 0.5em;
+    }
+    #uvod {
+        padding: 2em;
+        background-color: rgba(51, 0, 102, 0.1);
+    }
+
     color: #333333; 
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
@@ -30,4 +43,18 @@ a:active { color:#990000; outline:none; }
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
+}
+div {
+  border: 2px solid red;
+}
+.slika {
+  font-size: 0.9em;
+  width: 40%;
+  text-align: left;
+  float: right;
+  margin-left: 2em;
+}
+.slika img {
+  width: 100%;
+  height: auto;
 }
